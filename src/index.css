@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: Hanken Grotesk;
+      font-size: 18px;
+      font-weight: 500;
+      src: url(./assets/fonts/static/HankenGrotesk-Medium.ttf);
+    }
+    @font-face {
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-weight: 700;
+        src: url(./assets/fonts/static/HankenGrotesk-Bold.ttf);
+    }
+    @font-face {
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-weight: 800;
+        src: url(./assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+      }
+}
+
+.redIcon { content: url('./assets/images/icon-reaction.svg'); }
+.yellowIcon { content: url('./assets/images/icon-memory.svg'); }
+.greenIcon { content: url('./assets/images/icon-verbal.svg'); }
+.blueIcon { content: url('./assets/images/icon-visual.svg'); }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
